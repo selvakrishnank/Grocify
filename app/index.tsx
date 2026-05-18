@@ -1,6 +1,7 @@
 import { Link } from "expo-router";
 import { Text, View } from "react-native";
 
+
 export default function Index() {
   return (
     <View
@@ -10,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Welcome to the Grocify</Text>
+      <Text className="text-red-500 text-4xl bg-purple-500">Welcome to the Grocify</Text>
     </View>
   );
 }
